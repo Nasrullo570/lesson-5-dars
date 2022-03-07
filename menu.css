@@ -1,0 +1,45 @@
+.header{
+    
+    background: red;
+    border-radius:10px ;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    
+}
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+    margin-left: 5px;
+  
+}
+.header .menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: .3s;
+
+}
+.header .menu ul li a:hover{
+    background: white;
+    color: red;
+    border-radius:5px ;
+}
+.header .search{
+    margin-right:20px ;
+}
+.header .search input{
+    /* margin-right: 10px; */
+    height: 20px;
+    width: 300px;
+
+    border-radius: 10px;
+
+    border: 0;
+
+}
+.header .search input:focus{
+    outline: none;
+}

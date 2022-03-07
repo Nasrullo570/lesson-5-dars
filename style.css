@@ -1,0 +1,40 @@
+.container1{
+    display: flex;
+    background: yellow;
+   
+    /* hamma narsani ortaga otkazadi */
+    /* justify-content: center; */
+    /* oxiridan boshlaydi */
+    /* justify-content: flex-end; */
+    /* boshidan boshlaydi */
+    /* justify-content: flex-start; */
+    /* teng taqsimlaydi boshidan oxirigacha */
+    /* justify-content: space-between; */
+    /* joy tashab taqsimlaydi */
+    justify-content: space-around;
+    /* koproq joy tashlanadi teng taqsimlaydi */
+    /* justify-content: space-evenly; */
+    /* moslashtrmoq */
+    flex-wrap: wrap;
+    /* teskari moslashtradi */
+    /* flex-wrap: wrap-reverse ; */
+    /* vertikal boyicha joylashtrilgan */
+    /* align-items: center; */
+    
+   
+   
+
+}
+.container2{
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.box{
+    background: red;
+    padding: 30px;
+    /* margin-left: 10px; */
+    /* width: 800px; */
+
+}
